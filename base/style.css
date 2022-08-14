@@ -188,6 +188,14 @@ footer .contact a{
 }
 
 @media only screen and (max-width: 480px){
+
+.marketing, .search, .travel, .maps, .photogal, .calc {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 footer .navbottom{
     display:none;
 }
