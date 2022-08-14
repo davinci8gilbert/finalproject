@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+    <script src="../script.js"></script>
+    
+    <title>Responsive Layout</title>
+</head>
+<body>
+            
+            <header>
+            <h1 id="myName" onload="NameAnimation()">GILBERT GULE</h1>
+            
+            <!-- <div class="nav">
+                <a href="#">HOME</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">CONTACT</a> 
+            </div> -->
+            <div class="introimage">    
+                <div class="slider-frame">
+                    <div class="slide-images">
+                        <div class="image-container">
+                            <img src="../images_final/profilepic.jpg">      
+                        </div>
+                        <div class="image-container">
+                            <img src="../images_final/profilepic2.jpg" id="pic2">
+                        </div>
+                        <div class="image-container">
+                            <img src="../images_final/profilepic3.jpg" id="pic3">
+                        </div>
+                        <div class="image-container">
+                            <img src="../images_final/profilepic4.jpg" id="pic4">
+                        </div>
+                        <div class="image-container">
+                            <img src="../images_final/profilepic5.jpg" id="pic5">
+                        </div>
+                        <div class="image-container">
+                            <img src="../images_final/profilepic6.jpg" id="pic6">
+                        </div>
+                        <div class="image-container">
+                            <img src="../images_final/profilepic7.jpg" id="pic7">
+                        </div>
+                    </div>
+                </div>
+                <p id="intro">  I completed a course in Multimedia Web Development at 
+                    Douglas College in Summer of 2022.  The course awakened my passion in 
+                    Web Designing and I am in the process of progressively improving myself to master advanced
+                    techniques and skills in developing sophisticated and customized web designs.  
+                    My portfolio as listed below summarizes my current abilities and skills.    
+                </p>  
+            </div>
+        </header>
+        <section>   
+            <div>
+                <h1 id="portfolio">P O R T F O L I O</h1>
+            </div>
+            <br><br>
+            <div class="sectionitems">
+                <div class="batch1">
+                    <div class="tablet1">
+                        <div class="marketing">
+                            <img src="../images_final/case2.jpg" name="image" onmouseover="Zoomout(0)" onmouseout="Zoomin(0)">
+                            <h2>Designing HTML Elements</h2>
+                            <p>This project demonstrates my abilities to design and align specific HTML elements, format lists and work with margins, paddings, pseudo-classes and pseudo-elements.</p>
+                                <div class="link1">
+                                    <a href="https://davinci8gilbert.github.io/htmlelementsdesign/cw_class.html">Web</a>
+                                    <a href="https://github.com/davinci8gilbert/htmlelementsdesign.git">Codes</a>
+                                </div>
+                        </div>
+                        <div class="search">
+                            <img src="../images_final/case3.jpg" name="image" onmouseover="Zoomout(1)" onmouseout="Zoomin(1)">
+                            <h2>Setting Main Content for Web Page</h2>
+                            <p>This project demonstrates setting up of main content of a web page, assigning and manipulating backgound and the encompassing font.</p>
+                                <div class="link2">
+                                    <a href="https://davinci8gilbert.github.io/workingwithmainelement/">Web</a>
+                                    <a href="https://github.com/davinci8gilbert/workingwithmainelement.git">Codes</a>
+                                </div>
+                        </div>
+                    </div>               
+                        <div class="travel">
+                            <img src="../images_final/case4.jpg" name="image" onmouseover="Zoomout(2)" onmouseout="Zoomin(2)">
+                            <h2>Grid Style <br>Layouts</h2>
+                            <p>This project demonstrates the use of CSS Grid Layouts, placing items within a grid and aligning and positioning them. 
+                                It also incorporates floating items.
+                            </p>
+                                <div class="link3">
+                                    <a href="https://davinci8gilbert.github.io/workingwithgrid/sp_home.html">Web</a>
+                                    <a href="https://github.com/davinci8gilbert/workingwithgrid.git">Codes</a>
+                                </div>               
+                        </div>
+                </div>
+            <div class="batch2">
+                        <div class="maps">
+                            <img src="../images_final/case5.jpg" name="image" onmouseover="Zoomout(3)" onmouseout="Zoomin(3)">
+                            <h2>Responsive Design</h2>
+                            <p>This project demonstrates responsive layout with respect to the size of the browser.  It also shows the use of flex display properties.</p>
+                                <div class="link4">
+                                    <a href="https://davinci8gilbert.github.io/workingwithresponsivedesign/gule_300364183_Lab05.html">Web</a>
+                                    <a href="https://github.com/davinci8gilbert/workingwithresponsivedesign.git">Codes</a>
+                                </div>
+                        </div>       
+                <div class="bottomgroup">
+                        <div class="photogal">
+                            <img src="../images_final/case6.jpg" name="image" onmouseover="Zoomout(4)" onmouseout="Zoomin(4)">
+                            <h2>HTML Event Attributes</h2>
+                            <p>This project demonstrates the application of HTML event attributes which call to run javascript functions.
+                                The functions contain conditional statements to perform specific actions.
+                            </p>
+                                <div class="link5">
+                                    <a href="https://davinci8gilbert.github.io/workingwithHTMLevents/Lab10_part1_sol.html">Web1</a>
+                                    <a href="https://davinci8gilbert.github.io/workingwithHTMLevents/Lab10_part2_sol.html">Web2</a>
+                                    <a href="https://github.com/davinci8gilbert/workingwithHTMLevents.git">Codes</a>
+                                </div>
+                        </div>
+                        <div class="calc">
+                            <img src="../images_final/case7.jpg" name="image" onmouseover="Zoomout(5)" onmouseout="Zoomin(5)">
+                            <h2>More With Javascript</h2>
+                            <p>This project demonstrates more application of javascript programming concepts by showcasing them in a simple calculator.
+                                This also includes conditional statements with mathematical operations.
+                            </p>
+                                <div class="link6">
+                                    <a href="https://davinci8gilbert.github.io/calculator_assignment8/Gule_300364183_Lab7.html">Web</a>
+                                    <a href="https://github.com/davinci8gilbert/calculator_assignment8.git">Codes</a>
+                                </div>
+                        </div> 
+                </div>  
+            </div>
+        </div>
+    </section>
+
+
+<footer>
+    <div class="contact">
+        <h3 id="contacttext">CONTACT</h3>
+        <p>You can reach out to me to discuss about the details of my work and my current skills!</p>
+        <div class="contactdetails">
+            <a href="tel: +1(111)555-1234">Phone: +1 (778) 223-2982</a>
+            <a href="mailto:davinci8gilbert@yahoo.com">Email: davinci8gilbert@yahoo.com</a>
+        </div>
+    </div>
+    <hr style="width:100%;" >
+    <div class="foot">
+        <div class="bottom">
+            <div id="student">Gilbert Gule</div>
+            <a href="#">BACK TO TOP</a>
+        </div>
+        <nav class="navbottom">
+            <a href="#">HOME</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contacttext">CONTACT</a>  
+        </nav>
+    </div>  
+</footer> 
+<script>
+const text = baffle('#myName');
+text.set({
+    character: '',
+    speed: 150
+});
+text.start();
+text.reveal(4000);
+
+const text2 = document.querySelector('#portfolio');
+const strText = text2.textContent;
+const splitText = strText.split("");
+text2.textContent="";
+
+for(let i=0; i < splitText.length; i++) {
+    text2.innerHTML += "<span>"+splitText[i] + "</span>";
+}
+
+let char=0;
+let timer = setInterval(onTick, 50);
+
+function onTick(){
+    const span = text2.querySelectorAll('span')[char];
+    span.classList.add('fade');
+    char++;   
+    if(char === splitText.length){
+        char=0;
+    }
+}
+
+
+</script>
+</body>
+</html>
